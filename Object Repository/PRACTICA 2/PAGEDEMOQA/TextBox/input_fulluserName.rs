@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Swag Labs_login-button</name>
+   <name>input_fulluserName</name>
    <tag></tag>
-   <elementGuidId>da546816-9bbc-42eb-af72-017f085ddc4c</elementGuidId>
+   <elementGuidId>fb070d38-82bb-433f-b4bf-e860f618d71d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-button</value>
+         <value>#userName</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-button']</value>
+         <value>//input[@id='userName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9461f5ca-2ff8-4896-82b8-284266f9a4e1</webElementGuid>
+      <webElementGuid>35e9ffbe-7f5f-4d86-a019-0f4da46d305e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>1eacc402-180d-41d6-873e-5b134ba7b6ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Full Name</value>
+      <webElementGuid>e1b47832-9748-4fb6-8687-16e14303de89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>61612e42-1f10-498f-993b-0e83f25dc4a6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>submit-button btn_action</value>
-      <webElementGuid>365ea854-6329-4f6c-92c5-9e240ff965a2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-test</name>
-      <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>c66fa11f-002a-4e8e-8bb3-cf703eab4ab8</webElementGuid>
+      <value>text</value>
+      <webElementGuid>a5bff9a0-d2dc-4d19-a70d-090cac5b0381</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>73a6b633-8dd4-4903-bf5b-599bdc4b55f8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>119e2a0d-df7b-4b0d-a8a2-2a00cd9495d0</webElementGuid>
+      <value>userName</value>
+      <webElementGuid>70286ed0-5e1b-4a42-ad5a-2784a8cc4450</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>49920100-d296-42de-85d4-6cba736dfca8</webElementGuid>
+      <value> mr-sm-2 form-control</value>
+      <webElementGuid>6a8bebcc-2d48-4ab3-9d7c-12fd1b4db0c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-button&quot;)</value>
-      <webElementGuid>41dad54e-e76a-4ad0-a948-98dba520c82d</webElementGuid>
+      <value>id(&quot;userName&quot;)</value>
+      <webElementGuid>aaa2f161-aa68-4876-b0ab-1637c15445f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-button']</value>
-      <webElementGuid>c340423f-70f9-4a4c-a84f-4b38314af447</webElementGuid>
+      <value>//input[@id='userName']</value>
+      <webElementGuid>75f348f7-51b8-4de1-bf9e-2857b4c0de10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/input</value>
-      <webElementGuid>96c0fe83-72ba-4b95-b0c9-91d39a2e7ad1</webElementGuid>
+      <value>//div[@id='userName-wrapper']/div[2]/input</value>
+      <webElementGuid>c75bbc42-d7c7-4f26-9d01-417503e612f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/input</value>
-      <webElementGuid>ca67eb00-832a-467c-95a8-a21457c5e00d</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>97a4d7df-136c-40e6-a1c3-225d1c95d915</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'login-button' and @name = 'login-button']</value>
-      <webElementGuid>722ad2d9-92f6-48b5-ae80-9965936b67f9</webElementGuid>
+      <value>//input[@placeholder = 'Full Name' and @type = 'text' and @id = 'userName']</value>
+      <webElementGuid>f3fa04c2-554f-4d76-b60a-6cb94f154871</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

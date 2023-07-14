@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Swag Labs_user-name</name>
+   <name>input_userName</name>
    <tag></tag>
    <elementGuidId>f1f78d92-aa57-4fb5-8cb1-fa32446ec650</elementGuidId>
    <selectorCollection>
