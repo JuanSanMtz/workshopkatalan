@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02</name>
+   <name>TC02_crearCita</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f37fde16-5890-4ecc-8a50-20ef5474e64f</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>1c19bd57-a428-4b4a-b22a-89ec3e4e4d15</variableId>
-   </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -24,21 +18,14 @@
       <variableId>a25518ee-b410-4303-81db-38524adfd627</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
-      <description></description>
-      <id>1c19bd57-a428-4b4a-b22a-89ec3e4e4d15</id>
-      <masked>false</masked>
-      <name>URL</name>
-   </variable>
-   <variable>
-      <defaultValue>'Jhon Doe'</defaultValue>
+      <defaultValue>'John Doe'</defaultValue>
       <description></description>
       <id>6adff8da-18fc-4369-b98b-46bf55838658</id>
       <masked>false</masked>
       <name>userName</name>
    </variable>
    <variable>
-      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
       <description></description>
       <id>a25518ee-b410-4303-81db-38524adfd627</id>
       <masked>false</masked>

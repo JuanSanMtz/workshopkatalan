@@ -4,31 +4,31 @@
    <name>TC01_login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9e6ed42b-f1d0-42c7-b710-e2d4adac3196</testCaseGuid>
+   <testCaseGuid>be3f9d13-b0ee-4744-837d-0ee8f61ecd17</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>bd4f83c8-ed51-408c-8211-feeaf0615cad</variableId>
+      <variableId>8693bb78-d8ee-4c39-8012-d32d1501b827</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>952da391-4b54-4443-8100-54ca6b6a58ab</variableId>
+      <variableId>0afee0fc-700b-4f05-bbef-d450e492a250</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'standard_user'</defaultValue>
+      <defaultValue>'22-07-2023'</defaultValue>
       <description></description>
-      <id>bd4f83c8-ed51-408c-8211-feeaf0615cad</id>
+      <id>8693bb78-d8ee-4c39-8012-d32d1501b827</id>
       <masked>false</masked>
-      <name>userName</name>
+      <name>visita</name>
    </variable>
    <variable>
-      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <defaultValue>'Hola, me gustaria reservar mi visita'</defaultValue>
       <description></description>
-      <id>952da391-4b54-4443-8100-54ca6b6a58ab</id>
+      <id>0afee0fc-700b-4f05-bbef-d450e492a250</id>
       <masked>false</masked>
-      <name>password</name>
+      <name>texto</name>
    </variable>
 </TestCaseEntity>

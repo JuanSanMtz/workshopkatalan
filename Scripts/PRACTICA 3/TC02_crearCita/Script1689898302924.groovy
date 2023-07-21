@@ -21,18 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/PRACTICA 3/INICIO/click_makeappointment')) 
+WebUI.click(findTestObject('Object Repository/PRACTICA 3/INICIO/click_makeappointment'))
 
-WebUI.setText(findTestObject('Object Repository/PRACTICA 3/LOGIN/input_userName'), 'John Doe') 
+WebUI.setText(findTestObject('Object Repository/PRACTICA 3/LOGIN/input_userName'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/PRACTICA 3/LOGIN/input_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/PRACTICA 3/LOGIN/input_password'), password)
 
 WebUI.click(findTestObject('Object Repository/PRACTICA 3/LOGIN/button_Login'))
-
-WebUI.verifyTextPresent('Make Appointment', false)
-
-WebUI.takeFullPageScreenshotAsCheckpoint('C:\\Evidencias\\Captura.jpg', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
 

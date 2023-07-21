@@ -17,20 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL) 
+WebUI.callTestCase(findTestCase('PRACTICA 3/TC02_crearCita'), [('userName') : 'John Doe', ('password') : 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/PRACTICA 1/LOGIN/input_userName'), userName)
+WebUI.selectAllOption(findTestObject('Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_facility'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/PRACTICA 1/LOGIN/input_password'), password)
+WebUI.check(findTestObject('Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_check'))
 
-WebUI.click(findTestObject('Object Repository/PRACTICA 1/LOGIN/button_login'))
+WebUI.check(findTestObject('Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_checkMedicaid'))
 
-WebUI.verifyMatch(WebUI.getUrl(), 'https://www.saucedemo.com/inventory.html', false)
+WebUI.setText(findTestObject('Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_calender'), visita)
 
-WebUI.verifyTextPresent('Products', false)
+WebUI.setText(findTestObject('Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_text'), texto)
 
-WebUI.takeScreenshot('C:\\Evidencias\\login.jpg', FailureHandling.STOP_ON_FAILURE)
+WebUI.check(findTestObject('Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_bookAppointment'))
+
+WebUI.takeScreenshot('C:\\Evidencias\\PRACTICA3.JPG')
 
 WebUI.closeBrowser()
+
