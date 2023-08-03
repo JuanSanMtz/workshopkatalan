@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "041A916A8C2C76F3A3F38A8AB1445117",
+  "keywordClasses": [
+    {
+      "name": "UtilidadesNavegador",
+      "keywordMethods": [
+        {
+          "name": "zoomOut",
+          "parameters": [
+            {
+              "name": "iteracionZoomOut",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

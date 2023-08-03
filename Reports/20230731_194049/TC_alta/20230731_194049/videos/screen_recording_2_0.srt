@@ -1,0 +1,88 @@
+1
+00:00:00,004 --> 00:00:00,093
+1. callTestCase(findTestCase("ALTAFORMULARIO/login"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,097 --> 00:00:18,918
+1. openBrowser("https://demoqa.com/login")
+
+3
+00:00:18,920 --> 00:00:23,093
+5. UtilidadesNavegador.zoomOut(3)
+
+4
+00:00:23,095 --> 00:00:23,253
+9. maximizeWindow()
+
+5
+00:00:23,254 --> 00:00:24,167
+13. scrollToElement(findTestObject("ALTAFORMULARIO/login/input_UserName_userName"), 0)
+
+6
+00:00:24,169 --> 00:00:25,038
+17. setText(findTestObject("ALTAFORMULARIO/login/input_UserName_userName"), "jsantosmtz")
+
+7
+00:00:25,039 --> 00:00:25,550
+21. setEncryptedText(findTestObject("ALTAFORMULARIO/login/input_Password_password"), "KwoNkYu7QNR8qWM+Gg8WL05fv8P8mr+8")
+
+8
+00:00:25,552 --> 00:00:25,987
+25. click(findTestObject("ALTAFORMULARIO/login/button_Login"))
+
+9
+00:00:25,989 --> 00:00:27,569
+5. click(findTestObject("ALTAFORMULARIO/elements_Webtables/div_Elements"))
+
+10
+00:00:27,572 --> 00:00:28,079
+9. scrollToElement(findTestObject("ALTAFORMULARIO/elements_Webtables/div_Elements"), 0)
+
+11
+00:00:28,081 --> 00:00:28,524
+13. click(findTestObject("ALTAFORMULARIO/elements_Webtables/span_Web Tables"))
+
+12
+00:00:28,526 --> 00:00:29,112
+17. click(findTestObject("ALTAFORMULARIO/elements_Webtables/button_Add"))
+
+13
+00:00:29,114 --> 00:00:30,009
+21. setText(findTestObject("ALTAFORMULARIO/elements_Webtables/input_First Name_firstName"), Nombre)
+
+14
+00:00:30,010 --> 00:00:30,823
+25. setText(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Last Name_lastName"), Apellido)
+
+15
+00:00:30,825 --> 00:00:31,720
+29. setText(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Email_userEmail"), Correo)
+
+16
+00:00:31,722 --> 00:00:32,501
+33. setText(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Age_age"), Edad)
+
+17
+00:00:32,506 --> 00:00:33,334
+37. setText(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Salary_salary"), Salario)
+
+18
+00:00:33,338 --> 00:00:34,180
+41. setText(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Department_department"), Departamento)
+
+19
+00:00:34,183 --> 00:00:34,652
+45. click(findTestObject("ALTAFORMULARIO/elements_Webtables/button_Submit"))
+
+20
+00:00:34,654 --> 00:00:35,323
+49. scrollToElement(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Add_searchBox"), 0)
+
+21
+00:00:35,326 --> 00:00:35,891
+53. click(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Add_searchBox"))
+
+22
+00:00:35,894 --> 00:00:36,706
+57. setText(findTestObject("ALTAFORMULARIO/elements_Webtables/input_Add_searchBox"), "Pedro Pablo")
+

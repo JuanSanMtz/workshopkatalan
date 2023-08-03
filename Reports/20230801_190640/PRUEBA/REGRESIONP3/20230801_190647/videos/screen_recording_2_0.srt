@@ -1,0 +1,32 @@
+1
+00:00:00,001 --> 00:00:02,920
+1. openBrowser("")
+
+2
+00:00:02,927 --> 00:00:03,072
+5. maximizeWindow()
+
+3
+00:00:03,074 --> 00:00:07,156
+9. UtilidadesNavegador.zoomOut(3)
+
+4
+00:00:07,157 --> 00:00:08,454
+13. navigateToUrl(URL)
+
+5
+00:00:08,454 --> 00:00:09,100
+17. click(findTestObject("Object Repository/PRACTICA 3/INICIO/click_makeappointment"))
+
+6
+00:00:09,101 --> 00:00:09,740
+21. setText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_userName"), userName)
+
+7
+00:00:09,741 --> 00:00:10,104
+25. setEncryptedText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_password"), password)
+
+8
+00:00:10,105 --> 00:00:10,719
+29. click(findTestObject("Object Repository/PRACTICA 3/LOGIN/button_Login"))
+

@@ -1,0 +1,28 @@
+1
+00:00:00,001 --> 00:00:18,807
+1. openBrowser("https://demoqa.com/login")
+
+2
+00:00:18,812 --> 00:00:22,958
+5. UtilidadesNavegador.zoomOut(3)
+
+3
+00:00:22,959 --> 00:00:23,112
+9. maximizeWindow()
+
+4
+00:00:23,114 --> 00:00:23,605
+13. scrollToElement(findTestObject("ALTAFORMULARIO/login/input_UserName_userName"), 0)
+
+5
+00:00:23,607 --> 00:00:24,392
+17. setText(findTestObject("ALTAFORMULARIO/login/input_UserName_userName"), "jsantosmtz")
+
+6
+00:00:24,394 --> 00:00:24,874
+21. setEncryptedText(findTestObject("ALTAFORMULARIO/login/input_Password_password"), "KwoNkYu7QNR8qWM+Gg8WL05fv8P8mr+8")
+
+7
+00:00:24,877 --> 00:00:25,279
+25. click(findTestObject("ALTAFORMULARIO/login/button_Login"))
+

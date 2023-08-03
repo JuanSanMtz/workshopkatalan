@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="REGRESIONSYSTEM" time="28.304" tests="2" failures="0" errors="0">
+   <testsuite name="REGRESIONP3" tests="2" failures="0" errors="0" time="23.816" skipped="0" timestamp="2023-07-25 18:19:11" hostname="A2278170 - SIS-A2278170L.edificios.gfbanorte" id="Test Suites/PRUEBA/REGRESIONP3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\workshopkatalan\\Reports\\20230725_181906\\PRUEBA\\REGRESIONP3\\20230725_181907"/>
+         <property name="logFiles" value="C:\\Katalon\\workshopkatalan\\Reports\\20230725_181906\\PRUEBA\\REGRESIONP3\\20230725_181907\\execution0.log"/>
+         <property name="attachments" value="C:\Evidencias\PRACTICA3.JPG"/>
+         <property name="hostName" value="A2278170 - SIS-A2278170L.edificios.gfbanorte"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.40"/>
+         <property name="sessionId" value="86cdb54c4ff1f423c62431dc731aa47b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/PRACTICA 3/TC01_crearCita" time="16.972" classname="Test Cases/PRACTICA 3/TC01_crearCita" status="PASSED">
+         <system-out><![CDATA[2023-07-25 18:19:12 - [TEST_CASE][PASSED] - Test Cases/PRACTICA 3/TC01_crearCita: Test Cases/PRACTICA 3/TC01_crearCita
+
+2023-07-25 18:19:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PRACTICA 3/TC02_login"), ["userName":"John Doe", "password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"], STOP_ON_FAILURE): Call Test Case 'Test Cases/PRACTICA 3/TC02_login' successfully
+
+2023-07-25 18:19:12 - [TEST_CASE][PASSED] - Test Cases/PRACTICA 3/TC02_login: Test Cases/PRACTICA 3/TC02_login
+
+2023-07-25 18:19:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-25 18:19:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-25 18:19:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-25 18:19:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-25 18:19:17 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-25 18:19:19 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-25 18:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PRACTICA 3/INICIO/click_makeappointment")): Object: 'Object Repository/PRACTICA 3/INICIO/click_makeappointment' is clicked on
+
+2023-07-25 18:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PRACTICA 3/INICIO/click_makeappointment' is clicked on
+
+2023-07-25 18:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_userName"), userName): Text 'John Doe' is set on object 'Object Repository/PRACTICA 3/LOGIN/input_userName'
+
+2023-07-25 18:19:20 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/PRACTICA 3/LOGIN/input_userName'
+
+2023-07-25 18:19:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_password"), password): Text ****** has been set on object 'Object Repository/PRACTICA 3/LOGIN/input_password'
+
+2023-07-25 18:19:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PRACTICA 3/LOGIN/input_password'
+
+2023-07-25 18:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PRACTICA 3/LOGIN/button_Login")): Object: 'Object Repository/PRACTICA 3/LOGIN/button_Login' is clicked on
+
+2023-07-25 18:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PRACTICA 3/LOGIN/button_Login' is clicked on
+
+2023-07-25 18:19:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PRACTICA 3/TC02_login' successfully
+
+2023-07-25 18:19:22 - [TEST_STEP][PASSED] - selectAllOption(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_facility")): All options are selected on object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_facility'
+
+2023-07-25 18:19:24 - [MESSAGE][PASSED] - All options are selected on object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_facility'
+
+2023-07-25 18:19:24 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_check")): Object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_check' is checked
+
+2023-07-25 18:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_check' is checked
+
+2023-07-25 18:19:24 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_checkMedicaid")): Object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_checkMedicaid' is checked
+
+2023-07-25 18:19:25 - [MESSAGE][PASSED] - Object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_checkMedicaid' is checked
+
+2023-07-25 18:19:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_calender"), visita): Text '22-07-2023' is set on object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_calender'
+
+2023-07-25 18:19:26 - [MESSAGE][PASSED] - Text '22-07-2023' is set on object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_calender'
+
+2023-07-25 18:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_text"), texto): Text 'Hola, me gustaria reservar mi visita' is set on object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_text'
+
+2023-07-25 18:19:26 - [MESSAGE][PASSED] - Text 'Hola, me gustaria reservar mi visita' is set on object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_text'
+
+2023-07-25 18:19:26 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_bookAppointment")): Object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_bookAppointment' is checked
+
+2023-07-25 18:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_bookAppointment' is checked
+
+2023-07-25 18:19:27 - [TEST_STEP][PASSED] - takeScreenshot("C:\Evidencias\PRACTICA3.JPG"): Taking screenshot successfully
+
+2023-07-25 18:19:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Evidencias\PRACTICA3.JPG]]
+
+2023-07-25 18:19:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-25 18:19:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PRACTICA 3/TC02_login" time="6.562" classname="Test Cases/PRACTICA 3/TC02_login" status="PASSED">
+         <system-out><![CDATA[2023-07-25 18:19:29 - [TEST_CASE][PASSED] - Test Cases/PRACTICA 3/TC02_login: Test Cases/PRACTICA 3/TC02_login
+
+2023-07-25 18:19:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-25 18:19:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-25 18:19:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-25 18:19:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-25 18:19:31 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-25 18:19:32 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-07-25 18:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PRACTICA 3/INICIO/click_makeappointment")): Object: 'Object Repository/PRACTICA 3/INICIO/click_makeappointment' is clicked on
+
+2023-07-25 18:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PRACTICA 3/INICIO/click_makeappointment' is clicked on
+
+2023-07-25 18:19:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_userName"), userName): Text 'John Doe' is set on object 'Object Repository/PRACTICA 3/LOGIN/input_userName'
+
+2023-07-25 18:19:34 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/PRACTICA 3/LOGIN/input_userName'
+
+2023-07-25 18:19:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_password"), password): Text ****** has been set on object 'Object Repository/PRACTICA 3/LOGIN/input_password'
+
+2023-07-25 18:19:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PRACTICA 3/LOGIN/input_password'
+
+2023-07-25 18:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PRACTICA 3/LOGIN/button_Login")): Object: 'Object Repository/PRACTICA 3/LOGIN/button_Login' is clicked on
+
+2023-07-25 18:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PRACTICA 3/LOGIN/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-25 18:19:11 - [TEST_SUITE][PASSED] - REGRESIONP3: Test Cases/PRACTICA 3/TC02_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

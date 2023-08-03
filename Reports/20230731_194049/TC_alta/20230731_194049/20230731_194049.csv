@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_alta,Chrome 105.0.0.0,,,2023-07-31 19:40:53,2023-07-31 19:42:43,1m - 50.425s,PASSED
+,,,,,,,
+Test Cases/ALTAFORMULARIO/llenado_formulario,Chrome 105.0.0.0,,,2023-07-31 19:40:53,2023-07-31 19:41:37,43.801s,PASSED
+"callTestCase(findTestCase(""ALTAFORMULARIO/login""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2023-07-31 19:40:54,2023-07-31 19:41:24,29.811s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/div_Elements""))",Chrome 105.0.0.0,,,2023-07-31 19:41:24,2023-07-31 19:41:26,2.036s,PASSED
+"scrollToElement(findTestObject(""ALTAFORMULARIO/elements_Webtables/div_Elements""), 0)",Chrome 105.0.0.0,,,2023-07-31 19:41:26,2023-07-31 19:41:27,0.507s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/span_Web Tables""))",Chrome 105.0.0.0,,,2023-07-31 19:41:27,2023-07-31 19:41:27,0.423s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/button_Add""))",Chrome 105.0.0.0,,,2023-07-31 19:41:27,2023-07-31 19:41:28,0.478s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_First Name_firstName""), Nombre)",Chrome 105.0.0.0,,,2023-07-31 19:41:28,2023-07-31 19:41:28,0.801s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Last Name_lastName""), Apellido)",Chrome 105.0.0.0,,,2023-07-31 19:41:28,2023-07-31 19:41:29,0.853s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Email_userEmail""), Correo)",Chrome 105.0.0.0,,,2023-07-31 19:41:29,2023-07-31 19:41:30,0.944s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Age_age""), Edad)",Chrome 105.0.0.0,,,2023-07-31 19:41:30,2023-07-31 19:41:31,0.911s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Salary_salary""), Salario)",Chrome 105.0.0.0,,,2023-07-31 19:41:31,2023-07-31 19:41:32,0.872s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Department_department""), Departamento)",Chrome 105.0.0.0,,,2023-07-31 19:41:32,2023-07-31 19:41:33,0.845s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/button_Submit""))",Chrome 105.0.0.0,,,2023-07-31 19:41:33,2023-07-31 19:41:33,0.476s,PASSED
+"scrollToElement(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Add_searchBox""), 0)",Chrome 105.0.0.0,,,2023-07-31 19:41:33,2023-07-31 19:41:34,0.643s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Add_searchBox""))",Chrome 105.0.0.0,,,2023-07-31 19:41:34,2023-07-31 19:41:34,0.422s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Add_searchBox""), ""Pedro Pablo"")",Chrome 105.0.0.0,,,2023-07-31 19:41:34,2023-07-31 19:41:35,0.750s,PASSED
+Video,Chrome 105.0.0.0,,,2023-07-31 19:41:37,2023-07-31 19:41:37,0.001s,PASSED
+,,,,,,,
+Test Cases/ALTAFORMULARIO/llenado_formulario,Chrome 105.0.0.0,,,2023-07-31 19:41:37,2023-07-31 19:42:16,38.797s,PASSED
+"callTestCase(findTestCase(""ALTAFORMULARIO/login""), [:], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2023-07-31 19:41:37,2023-07-31 19:42:03,25.985s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/div_Elements""))",Chrome 105.0.0.0,,,2023-07-31 19:42:03,2023-07-31 19:42:05,1.582s,PASSED
+"scrollToElement(findTestObject(""ALTAFORMULARIO/elements_Webtables/div_Elements""), 0)",Chrome 105.0.0.0,,,2023-07-31 19:42:05,2023-07-31 19:42:05,0.508s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/span_Web Tables""))",Chrome 105.0.0.0,,,2023-07-31 19:42:05,2023-07-31 19:42:06,0.442s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/button_Add""))",Chrome 105.0.0.0,,,2023-07-31 19:42:06,2023-07-31 19:42:06,0.588s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_First Name_firstName""), Nombre)",Chrome 105.0.0.0,,,2023-07-31 19:42:06,2023-07-31 19:42:07,0.897s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Last Name_lastName""), Apellido)",Chrome 105.0.0.0,,,2023-07-31 19:42:07,2023-07-31 19:42:08,0.814s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Email_userEmail""), Correo)",Chrome 105.0.0.0,,,2023-07-31 19:42:08,2023-07-31 19:42:09,0.896s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Age_age""), Edad)",Chrome 105.0.0.0,,,2023-07-31 19:42:09,2023-07-31 19:42:10,0.784s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Salary_salary""), Salario)",Chrome 105.0.0.0,,,2023-07-31 19:42:10,2023-07-31 19:42:11,0.831s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Department_department""), Departamento)",Chrome 105.0.0.0,,,2023-07-31 19:42:11,2023-07-31 19:42:12,0.845s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/button_Submit""))",Chrome 105.0.0.0,,,2023-07-31 19:42:12,2023-07-31 19:42:12,0.470s,PASSED
+"scrollToElement(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Add_searchBox""), 0)",Chrome 105.0.0.0,,,2023-07-31 19:42:12,2023-07-31 19:42:13,0.671s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Add_searchBox""))",Chrome 105.0.0.0,,,2023-07-31 19:42:13,2023-07-31 19:42:13,0.569s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/elements_Webtables/input_Add_searchBox""), ""Pedro Pablo"")",Chrome 105.0.0.0,,,2023-07-31 19:42:13,2023-07-31 19:42:14,0.809s,PASSED
+Video,Chrome 105.0.0.0,,,2023-07-31 19:42:16,2023-07-31 19:42:16,0.000s,PASSED
+,,,,,,,
+Test Cases/ALTAFORMULARIO/login,Chrome 105.0.0.0,,,2023-07-31 19:42:16,2023-07-31 19:42:43,27.344s,PASSED
+"openBrowser(""https://demoqa.com/login"")",Chrome 105.0.0.0,,,2023-07-31 19:42:16,2023-07-31 19:42:35,18.812s,PASSED
+UtilidadesNavegador.zoomOut(3),Chrome 105.0.0.0,,,2023-07-31 19:42:35,2023-07-31 19:42:39,4.146s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2023-07-31 19:42:39,2023-07-31 19:42:39,0.154s,PASSED
+"scrollToElement(findTestObject(""ALTAFORMULARIO/login/input_UserName_userName""), 0)",Chrome 105.0.0.0,,,2023-07-31 19:42:39,2023-07-31 19:42:40,0.493s,PASSED
+"setText(findTestObject(""ALTAFORMULARIO/login/input_UserName_userName""), ""jsantosmtz"")",Chrome 105.0.0.0,,,2023-07-31 19:42:40,2023-07-31 19:42:41,0.786s,PASSED
+"setEncryptedText(findTestObject(""ALTAFORMULARIO/login/input_Password_password""), ""KwoNkYu7QNR8qWM+Gg8WL05fv8P8mr+8"")",Chrome 105.0.0.0,,,2023-07-31 19:42:41,2023-07-31 19:42:41,0.483s,PASSED
+"click(findTestObject(""ALTAFORMULARIO/login/button_Login""))",Chrome 105.0.0.0,,,2023-07-31 19:42:41,2023-07-31 19:42:41,0.400s,PASSED
+Video,Chrome 105.0.0.0,,,2023-07-31 19:42:43,2023-07-31 19:42:43,0.000s,PASSED

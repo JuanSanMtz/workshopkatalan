@@ -1,0 +1,68 @@
+1
+00:00:00,325 --> 00:00:00,995
+1. callTestCase(findTestCase("PRACTICA 3/TC02_login"), ["userName":"John Doe", "password":"g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"], STOP_ON_FAILURE)
+
+2
+00:00:01,024 --> 00:00:07,492
+1. openBrowser("")
+
+3
+00:00:07,494 --> 00:00:07,669
+5. maximizeWindow()
+
+4
+00:00:07,670 --> 00:00:11,914
+9. UtilidadesNavegador.zoomOut(3)
+
+5
+00:00:11,915 --> 00:00:13,354
+13. navigateToUrl(URL)
+
+6
+00:00:13,355 --> 00:00:14,447
+17. click(findTestObject("Object Repository/PRACTICA 3/INICIO/click_makeappointment"))
+
+7
+00:00:14,449 --> 00:00:15,733
+21. setText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_userName"), userName)
+
+8
+00:00:15,736 --> 00:00:16,595
+25. setEncryptedText(findTestObject("Object Repository/PRACTICA 3/LOGIN/input_password"), password)
+
+9
+00:00:16,598 --> 00:00:17,989
+29. click(findTestObject("Object Repository/PRACTICA 3/LOGIN/button_Login"))
+
+10
+00:00:17,991 --> 00:00:20,740
+5. selectAllOption(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_facility"))
+
+11
+00:00:20,742 --> 00:00:21,147
+9. check(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_check"))
+
+12
+00:00:21,150 --> 00:00:21,488
+13. check(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_checkMedicaid"))
+
+13
+00:00:21,492 --> 00:00:22,474
+17. setText(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_calender"), visita)
+
+14
+00:00:22,476 --> 00:00:23,373
+21. setText(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_text"), texto)
+
+15
+00:00:23,375 --> 00:00:24,244
+25. check(findTestObject("Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_bookAppointment"))
+
+16
+00:00:24,246 --> 00:00:24,733
+29. takeScreenshot("C:\Evidencias\PRACTICA3.JPG")
+
+17
+00:00:24,734 --> 00:00:25,610
+33. closeBrowser()
+

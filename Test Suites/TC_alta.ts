@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_alta</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>b003d7f5-b891-41fa-b1e6-05a8b526acee</testSuiteGuid>
+   <testCaseLink>
+      <guid>f1e1782c-8875-4a36-a498-618152a588ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ALTAFORMULARIO/llenado_formulario</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6a9b3f1e-ffe6-44b6-9d53-09f0c66d072e</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
+         </iterationEntity>
+         <testDataId>Data Files/DataSetCura</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6a9b3f1e-ffe6-44b6-9d53-09f0c66d072e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nombre</value>
+         <variableId>d7ceda20-7169-42c4-8c2a-cecc21c720a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a9b3f1e-ffe6-44b6-9d53-09f0c66d072e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Apellido</value>
+         <variableId>0a61015f-9d58-4233-a8ef-6ef0e44319e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a9b3f1e-ffe6-44b6-9d53-09f0c66d072e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Correo</value>
+         <variableId>9bc28cad-3a49-44a3-a411-f6a55eb6452f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a9b3f1e-ffe6-44b6-9d53-09f0c66d072e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Edad</value>
+         <variableId>44e18010-fd69-462b-982a-6d9d1949434b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a9b3f1e-ffe6-44b6-9d53-09f0c66d072e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Salario</value>
+         <variableId>691a2d8a-7d09-4d8b-88cf-8fb3e35c8727</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a9b3f1e-ffe6-44b6-9d53-09f0c66d072e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Departamento</value>
+         <variableId>f23fbb8d-6a50-41e0-aed8-9abcd4039848</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>624ecbae-e97c-4dc4-b6b9-4f2ce46f4c35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ALTAFORMULARIO/login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

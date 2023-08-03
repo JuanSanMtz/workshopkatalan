@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+REGRESIONP3,Chrome 105.0.0.0,,,2023-08-01 19:05:16,2023-08-01 19:05:57,41.474s,PASSED
+,,,,,,,
+Test Cases/PRACTICA 3/TC01_crearCita,Chrome 105.0.0.0,,,2023-08-01 19:05:16,2023-08-01 19:05:44,27.879s,PASSED
+"callTestCase(findTestCase(""PRACTICA 3/TC02_login""), [""userName"":""John Doe"", ""password"":""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2023-08-01 19:05:16,2023-08-01 19:05:34,17.663s,PASSED
+"selectAllOption(findTestObject(""Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_facility""))",Chrome 105.0.0.0,,,2023-08-01 19:05:34,2023-08-01 19:05:37,2.748s,PASSED
+"check(findTestObject(""Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_check""))",Chrome 105.0.0.0,,,2023-08-01 19:05:37,2023-08-01 19:05:37,0.409s,PASSED
+"check(findTestObject(""Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_checkMedicaid""))",Chrome 105.0.0.0,,,2023-08-01 19:05:37,2023-08-01 19:05:38,0.340s,PASSED
+"setText(findTestObject(""Object Repository/PRACTICA 3/MAKEAPPOINTMENT/input_calender""), visita)",Chrome 105.0.0.0,,,2023-08-01 19:05:38,2023-08-01 19:05:39,0.984s,PASSED
+"setText(findTestObject(""Object Repository/PRACTICA 3/MAKEAPPOINTMENT/select_text""), texto)",Chrome 105.0.0.0,,,2023-08-01 19:05:39,2023-08-01 19:05:39,0.899s,PASSED
+"check(findTestObject(""Object Repository/PRACTICA 3/MAKEAPPOINTMENT/button_bookAppointment""))",Chrome 105.0.0.0,,,2023-08-01 19:05:39,2023-08-01 19:05:40,0.871s,PASSED
+"takeScreenshot(""C:\Evidencias\PRACTICA3.JPG"")",Chrome 105.0.0.0,,,2023-08-01 19:05:40,2023-08-01 19:05:41,0.486s,PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2023-08-01 19:05:41,2023-08-01 19:05:42,0.875s,PASSED
+Video,Chrome 105.0.0.0,,,2023-08-01 19:05:44,2023-08-01 19:05:44,0.001s,PASSED
+,,,,,,,
+Test Cases/PRACTICA 3/TC02_login,Chrome 105.0.0.0,,,2023-08-01 19:05:44,2023-08-01 19:05:57,13.373s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2023-08-01 19:05:44,2023-08-01 19:05:47,3.550s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2023-08-01 19:05:47,2023-08-01 19:05:48,0.159s,PASSED
+UtilidadesNavegador.zoomOut(3),Chrome 105.0.0.0,,,2023-08-01 19:05:48,2023-08-01 19:05:52,4.075s,PASSED
+navigateToUrl(URL),Chrome 105.0.0.0,,,2023-08-01 19:05:52,2023-08-01 19:05:53,1.077s,PASSED
+"click(findTestObject(""Object Repository/PRACTICA 3/INICIO/click_makeappointment""))",Chrome 105.0.0.0,,,2023-08-01 19:05:53,2023-08-01 19:05:53,0.657s,PASSED
+"setText(findTestObject(""Object Repository/PRACTICA 3/LOGIN/input_userName""), userName)",Chrome 105.0.0.0,,,2023-08-01 19:05:53,2023-08-01 19:05:54,0.687s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PRACTICA 3/LOGIN/input_password""), password)",Chrome 105.0.0.0,,,2023-08-01 19:05:54,2023-08-01 19:05:54,0.398s,PASSED
+"click(findTestObject(""Object Repository/PRACTICA 3/LOGIN/button_Login""))",Chrome 105.0.0.0,,,2023-08-01 19:05:54,2023-08-01 19:05:55,0.657s,PASSED
+Video,Chrome 105.0.0.0,,,2023-08-01 19:05:57,2023-08-01 19:05:57,0.001s,PASSED

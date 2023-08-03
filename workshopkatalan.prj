@@ -6,6 +6,7 @@
    <UUID>c36bcfcb-f5f1-4d7b-9054-5b05e0c74798</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Katalon\workshopkatalan\workshopkatalan.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
